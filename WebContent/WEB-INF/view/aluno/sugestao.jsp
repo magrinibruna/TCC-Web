@@ -4,21 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Portal do Aluno</title>
+<title>Insert title here</title>
 </head>
 <body>
 
-	Bem-vindo!
-	
-	
-	
-	<form action="login" method="POST" >
-		Usuario: <input type="text" name="usuario"/>
-		Senha: <input type="text" name="senha"/>
-		<input type="submit" value="Entrar"/>
+	<form method="POST" action="sugestao">
+		Mensagem: <input type="text" name="mensagem"/>
+		<input type="submit" value="Enviar"/>
 	</form>
 	
-	<p style="color: red"> ${validacao} </p>
-
 </body>
 </html>

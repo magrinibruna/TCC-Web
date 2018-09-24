@@ -16,14 +16,23 @@
 			<td>${evento.dataEvento}</td>
 			<td>${evento.tituloEvento}</td>
 			<td>${evento.descricaoEvento}</td>
-		</tr>
+		</tr> <br/>
 	</c:forEach>
 	
 	<br/> <br/>
 	
 	<form method="POST" action="nota">
 		<input type="submit" value="Notas"/>
+	</form> 
+	
+	<form method="GET" action="sugestao">
+		<input type="submit" value="sugestao"/>
 	</form>
+	
+	<form method="GET" action="horario">
+		<input type="submit" value="horario"/>
+	</form>
+	
 	
 
 

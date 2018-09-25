@@ -8,9 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+aluno
 
-
-	<img src="<c:url value="C:\Users\Desenvolvimento - VM\Desktop\im.png"/>"/>
+	<img src="horario.png"/>
 
 </body>
 </html>

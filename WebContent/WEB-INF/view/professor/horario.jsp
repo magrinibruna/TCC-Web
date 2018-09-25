@@ -9,7 +9,6 @@
 </head>
 <body>
 
-
 	<img src="<c:url value="C:\Users\Desenvolvimento - VM\Desktop\im.png"/>"/>
 
 </body>

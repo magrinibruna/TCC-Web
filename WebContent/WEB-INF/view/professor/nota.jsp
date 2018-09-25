@@ -45,14 +45,12 @@
 
 	<h3>Notas</h3>
 
-	<form method="POST" action="nota">
-		<input type="hidden" name="notas"> <input type="submit"
-			value="Enviar" />
+	<form method="POST" action="cadastrarNota">
+		<input type="hidden" name="notas"> 
+		<input type="submit" value="Enviar" />
 	</form>
 
-	<br />
-
-	<form method="POST" action=" ">
+	<form method="POST" action="http://localhost:8080/portalzinho">
 		<input type="submit" value="Voltar" />
 	</form>
 

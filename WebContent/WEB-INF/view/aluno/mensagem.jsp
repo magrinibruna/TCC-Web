@@ -1,16 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Portal do Aluno</title>
 </head>
 <body>
 
-
-	<img src="<c:url value="C:\Users\Desenvolvimento - VM\Desktop\im.png"/>"/>
+	Mensagem
+	
+	<form method="POST" action="mensagem">
+		Para: <input type="text" name="destino"/>
+		Assunto: <input type="text" name="assunto"/>
+		Mensagem: <input type="text" name="mensagem"/>
+		<input type="submit" value="Enviar"/>
+	</form>
+	
+		<p style="color: red"> ${validacao} </p>
 
 </body>
 </html>

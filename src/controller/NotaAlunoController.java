@@ -18,14 +18,14 @@ public class NotaAlunoController implements Interfase {
 	public void execute(HttpServletRequest req, HttpServletResponse resp) {
 		try {
 
-			List<ProcNota> listaNota = new ProcNotaDAO().ConsultarNotaAvalaicao(25923, 1);
+			List<ProcNota> listaNota = new ProcNotaDAO().ConsultarNotaAvalaicao(25923, 3);
+	
 			req.setAttribute("listaNota", listaNota);
 			
 			RequestDispatcher dispatcher = req.getRequestDispatcher("WEB-INF/view/aluno/nota.jsp");
 			dispatcher.forward(req, resp);
 
 		} catch (ServletException | IOException e) {
-
 			e.printStackTrace();
 		}
 

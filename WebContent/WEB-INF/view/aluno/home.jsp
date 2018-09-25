@@ -21,7 +21,7 @@
 	
 	<br/> <br/>
 	
-	<form method="POST" action="nota">
+	<form method="GET" action="nota">
 		<input type="submit" value="Notas"/>
 	</form> 
 	
@@ -34,6 +34,14 @@
 	</form>
 	
 	
+	<form method="GET" action="mensagem">
+		<input type="submit" value="Mensagem"/>
+	</form>
+	
+	
+	<form method="GET" action="deslogar">
+		<input type="submit" value="Sair" />
+	</form>
 
 
 </body>

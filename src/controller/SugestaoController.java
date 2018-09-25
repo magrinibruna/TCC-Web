@@ -22,8 +22,9 @@ public class SugestaoController extends HttpServlet{
 	
 		String nh = (String) req.getSession().getAttribute("nivelHierarquico");
 		
-		if(nh == null || !nh.equals("aluno")) {
-			req.getRequestDispatcher("WEB-INF/view/login/login.jsp");
+		
+		if((nh == null) || (!nh.equals("aluno"))) {
+			requestDispatcher = req.getRequestDispatcher("WEB-INF/view/login/login.jsp");
 		}
 		
 		requestDispatcher.forward(req, resp);
